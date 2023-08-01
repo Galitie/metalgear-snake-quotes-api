@@ -1,18 +1,18 @@
 const express = require("express");
 const app = express();
-const PORT = "https://galitie.github.io/metalgear-snake-quotes-api/";
+const PORT = "8000";
 const cors = require("cors");
 
 app.use(cors());
 
 const characters = {
-  "Naked Snake": {
+  "naked snake": {
     1: "The nightmares? They never go away, Snake.",
     2: "This is good, isn’t it…?",
     3: "Time for you to put aside the gun, and live.",
     4: "To do the right thing, you sometimes have to leave the things you love behind",
   },
-  "Venom Snake": {
+  "venom snake": {
     1: "I won't scatter your sorrow to the heartless sea. I will always be with you. Plant your roots in me. I won't see you end as ashes. You're all diamonds. We'll make diamonds from their ashes, take them into battle with us. We are Diamond Dogs.",
     2: "Skullface...",
     3: "Welcome to Outer Haven.",
@@ -33,7 +33,7 @@ const characters = {
     18: "Bipedal?",
     29: "Your CQC is sloppy. Come see me later for a lesson you won't forget.",
   },
-  "Solid Snake": {
+  "solid snake": {
     1: "War has changed.",
     2: "The very first thing I did after I was born was...punch the nurse in the face.",
     3: "A nuclear weapon?",
@@ -71,7 +71,7 @@ const characters = {
     35: "Mr. Kojima!",
     36: "Unfortunately, killing is one of those things that get easier the more you do it.",
   },
-  "Liquid Snake": {
+  "liquid snake": {
     1: "I've been inside this arm all along, waiting for the right time to awaken.",
     2: "Brother!!!",
     3: "The system is mine! Your guns and your weapons are no longer your own!",
@@ -86,9 +86,8 @@ const characters = {
     12: "I'll send you to hell to meet him!",
     13: "SNAAAAAAAAAAAAAAAAAKE!",
     14: "Fox...",
-    15: "",
   },
-  "Solidus Snake": {
+  "solidus snake": {
     1: "Jack, those days during the civil war were as real as they come… Every day was absolute, split between life and death. You ran from it, and now, you’ve been lead back to war by something less than real.",
     2: "We’re all born with an expiration date. No one lasts forever. Life is nothing but a grace period for turning our genetic material into the next generation. The data of life is transferred from parent to child. That’s how it works. But we have no heirs, no legacy. Cloned from our father with the ability to reproduce conveniently engineered out. What is our legacy if we cannot pass the torch? Proof of our existence – a mark of some sort.",
     3: "Damn the Patriots…!",
